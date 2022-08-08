@@ -1,3 +1,4 @@
+
 puts "🌱 Seeding data..."
 
 # run a loop 50 times

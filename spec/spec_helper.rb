@@ -2,6 +2,7 @@ ENV['RACK_ENV'] = 'test'
 require_relative "../config/environment"
 require "sinatra/activerecord/rake"
 
+
 RSpec.configure do |config|
   # Database setup
   if ActiveRecord::Base.connection.migration_context.needs_migration?

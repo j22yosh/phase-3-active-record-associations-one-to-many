@@ -1,3 +1,4 @@
+
 describe Game do
   let(:game) { Game.first }
 

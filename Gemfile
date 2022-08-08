@@ -24,7 +24,7 @@ gem "require_all"
 group :development do
   # Used to generate seed data
   # https://github.com/faker-ruby/faker
-  gem "faker", "~> 2.18"
+  gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
   
   gem "pry"
 end
@@ -33,5 +33,6 @@ end
 group :test do
   gem "database_cleaner"
   gem "rspec"
+  
 end
 
